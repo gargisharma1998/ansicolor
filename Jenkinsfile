@@ -1,7 +1,7 @@
 #!groovy
-library identifier: 'supreme-broccoli@ansicolor', retriever: modernSCM(
+library identifier: '@ansicolor', retriever: modernSCM(
         [$class: 'GitSCMSource',
-         remote: 'https://github.com/shivanshthapliyal/supreme-broccoli'])
+         remote: 'https://github.com/babanjot/bootcamp_2020'])
 pipeline {
    agent any
     options{
